@@ -20,6 +20,8 @@
 		07636C3121768AA000B17AF1 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07636C3021768AA000B17AF1 /* ExtensionDelegate.swift */; };
 		07636C3321768AA000B17AF1 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07636C3221768AA000B17AF1 /* NotificationController.swift */; };
 		07636C3521768AA100B17AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07636C3421768AA100B17AF1 /* Assets.xcassets */; };
+		07636C4621768BA400B17AF1 /* RowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07636C4521768BA300B17AF1 /* RowController.swift */; };
+		07636C48217692CA00B17AF1 /* DetailInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07636C47217692CA00B17AF1 /* DetailInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,8 @@
 		07636C3421768AA100B17AF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07636C3621768AA100B17AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07636C3721768AA100B17AF1 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		07636C4521768BA300B17AF1 /* RowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowController.swift; sourceTree = "<group>"; };
+		07636C47217692CA00B17AF1 /* DetailInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +154,8 @@
 			isa = PBXGroup;
 			children = (
 				07636C2E21768AA000B17AF1 /* InterfaceController.swift */,
+				07636C4521768BA300B17AF1 /* RowController.swift */,
+				07636C47217692CA00B17AF1 /* DetailInterfaceController.swift */,
 				07636C3021768AA000B17AF1 /* ExtensionDelegate.swift */,
 				07636C3221768AA000B17AF1 /* NotificationController.swift */,
 				07636C3421768AA100B17AF1 /* Assets.xcassets */,
@@ -302,7 +308,9 @@
 			files = (
 				07636C3321768AA000B17AF1 /* NotificationController.swift in Sources */,
 				07636C3121768AA000B17AF1 /* ExtensionDelegate.swift in Sources */,
+				07636C4621768BA400B17AF1 /* RowController.swift in Sources */,
 				07636C2F21768AA000B17AF1 /* InterfaceController.swift in Sources */,
+				07636C48217692CA00B17AF1 /* DetailInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
